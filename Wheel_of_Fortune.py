@@ -3,7 +3,6 @@ import time
 
 Category = "Artist & Song"
 Phrase = "Cricket is a gentlemen's game"
-Phrase = "Hello"
 
 Wheel = ["10", "500", "250", "700", "300", "90", "Bankrupt", "600", "400", "650", "900", "450", "Lose Turn", "100", "550", "800", "750", "150"] # All in dollars
 
@@ -77,7 +76,7 @@ for i in Phrase:
     else:blanks+=i
 
 print("\n================================ W H E E E L   O F   F O R T U N E ========================\n                  \
-(Note : Vowels cost $250, all other letters are free to guess)\n\n\nCategory :",Category, "\nPhrase : ", blanks, end = "")
+(Note : Vowels cost , all other letters are free to guess)\n\n\nCategory :",Category, "\nPhrase : ", blanks, end = "")
 print('\n\n')
 
 PlayersList = []
@@ -125,7 +124,7 @@ while(not check_guess_complete_for_every_player(PlayersList)):
                 else:
                     if(input_letter != "pass"):
                         while(check_vowel(input_letter)):
-                            print("Vowels cost $250, but you only have $", PlayersList[Turn].cash,
+                            print("Vowels cost , but you only have $", PlayersList[Turn].cash,
                             ". You can either guess a non-vowel letter or pass your turn to next player by entering \"pass\"")
                             input_letter = input("Enter character(exept space) : ")
                             if(input_letter != "pass"):
