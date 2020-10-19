@@ -1,7 +1,7 @@
 import numpy as np
 import time
 
-Category = "Cricket"
+Category = "Sports"
 Phrase = "Cricket is a gentlemen's game"
 
 Wheel = ["10", "500", "250", "700", "300", "90", "Bankrupt", "600", "400", "650", "900", "450", "Lose Turn", "100", "550", "800", "750", "150"] # All in dollars
