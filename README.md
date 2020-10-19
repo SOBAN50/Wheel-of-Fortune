@@ -2,11 +2,13 @@
 It is a game called "Wheel of Fortune" implemented in python3 through Object Oriented Programming.
 
 There are num_human human players and num_computer computer players.
-Every player has some amount of money ($0) at the start of the game
+Every player has some amount of money () at the start of the game
 Every player has a set of prizes (none at the start of the game)
+
 The goal is to guess a phrase within a category. For example:
-Category: Artist & Song
+Category: Sports
 Phrase: Cricket is a gentlemen's game
+
 Players see the category and an obscured version of the phrase where every alphanumeric character in the phrase starts out as hidden (using underscores: _):
 
 Category: Artist & Song
