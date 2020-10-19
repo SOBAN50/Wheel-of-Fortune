@@ -18,7 +18,7 @@ If the wheel lands on a cash square, players may do one of three actions:
 
   Guess any letter that hasn’t been guessed by typing a letter (a-z)
 
-    Vowels (a, e, i, o, u) cost 40,687.50₨ () to guess and can’t be guessed if the player doesn’t have enough money. All other letters are “free” to guess
+    Vowels (a, e, i, o, u) cost ($250) to guess and can’t be guessed if the player doesn’t have enough money. All other letters are “free” to guess
 
     The player can guess any letter that hasn’t been guessed and gets that cash amount for every time that letter appears in the phrase
 
@@ -26,9 +26,9 @@ If the wheel lands on a cash square, players may do one of three actions:
 
     If the letter does appear in the phrase, the user loses its turn.
 
-    Example: The user lands on 81,375.00₨ () and guesses ‘W’
+    Example: The user lands on ($500) and guesses ‘W’
 
-    There are three W’s in the phrase, so the player wins 244,125.00₨ ()
+    There are three W’s in the phrase, so the player wins ($1500)
 
   Guess the complete phrase by typing a phrase (anything over one character that isn’t ‘pass’)
 
